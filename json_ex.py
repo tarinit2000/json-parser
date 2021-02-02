@@ -1,6 +1,6 @@
 import json
 # json is easy for humans to read and it's easy for computers to parse through
-
+""" This is a docstring - it is a descriptive message of what this function is and how to use it """
 def check_char_count(mystr): # mystr = string
     assert isinstance(mystr, str), 'Input to this function should be a string'
 # assert is like a if/else conditional (assert if somehting is true, else print this error message)
